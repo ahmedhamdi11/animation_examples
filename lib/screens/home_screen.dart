@@ -1,4 +1,5 @@
 import 'package:animation_test/screens/example_one.dart';
+import 'package:animation_test/screens/example_three.dart';
 import 'package:animation_test/screens/example_two.dart';
 import 'package:flutter/material.dart';
 
@@ -10,6 +11,7 @@ class HomeScreen extends StatelessWidget {
     List<Widget> screens = [
       const ExampleOne(),
       const ExampleTwo(),
+      const ExampleThree(),
     ];
     return Scaffold(
       appBar: AppBar(),
