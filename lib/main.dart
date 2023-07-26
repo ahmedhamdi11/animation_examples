@@ -15,6 +15,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Animation Test',
       theme: ThemeData(
+        brightness: Brightness.dark,
         useMaterial3: true,
       ),
       home: const HomeScreen(),
