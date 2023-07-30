@@ -1,3 +1,4 @@
+import 'package:animation_test/screens/example_five.dart';
 import 'package:animation_test/screens/example_four.dart';
 import 'package:animation_test/screens/example_one.dart';
 import 'package:animation_test/screens/example_three.dart';
@@ -14,6 +15,7 @@ class HomeScreen extends StatelessWidget {
       const ExampleTwo(),
       const ExampleThree(),
       const Example4(),
+      const ExampleFive(),
     ];
     return Scaffold(
       appBar: AppBar(),
